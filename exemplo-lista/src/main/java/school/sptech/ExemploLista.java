@@ -42,6 +42,5 @@ public class ExemploLista {
         {
             System.out.println(frutas.get(i));
         }
-
     }
 }
