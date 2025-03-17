@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("--------------------- EXEMPLO POO ---------------------");
-
-        Scanner leitor = new Scanner(System.in);
+        /*
         // Cria um novo objeto da classe bilhete
         BilheteUnico bilhete1 = new BilheteUnico();
         bilhete1.nomeUsuario = "Phelipe";
@@ -46,6 +45,6 @@ public class Main {
 
         System.out.printf("Saldo do bilhete 1: R$%.2f\n", bilhete1.saldo);
         System.out.printf("Saldo do bilhete 2: R$%.2f\n", bilhete2.saldo);
-
+        */
     }
 }
