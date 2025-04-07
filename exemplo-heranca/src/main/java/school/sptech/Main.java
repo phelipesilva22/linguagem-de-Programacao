@@ -15,5 +15,8 @@ public class Main {
         System.out.println("ALUNO FACULDADE: "+ aluno1);
         System.out.println("ALUNO POS: "+ aluno2);
         System.out.println("FACULDADE = '"+ faculdade);
+
+        faculdade.exibirMedia();
+        faculdade.exibirNotaTcc();
     }
 }

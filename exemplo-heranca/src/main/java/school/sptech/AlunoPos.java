@@ -6,6 +6,21 @@ public class AlunoPos extends Aluno {
     {
         super (nome, ra, notaContinuada, notaEntrega);
         this.notaTCC = notaTCC;
+
+    }
+
+    public Double getNotaTCC() {
+        return notaTCC;
+    }
+
+    public void setNotaTCC(Double notaTCC) {
+        this.notaTCC = notaTCC;
+    }
+
+    @Override
+    public Double calcularMedia()
+    {
+        return (this.getNotaContinuada() + this.getNotaEntrega() + this.notaTCC) / 3;
     }
 
     @Override

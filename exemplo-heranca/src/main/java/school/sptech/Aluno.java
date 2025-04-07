@@ -18,7 +18,7 @@ public class Aluno {
 
     public Double calcularMedia()
     {
-        return (this.notaContinuada + notaEntrega / 2.0);
+        return (this.notaContinuada + notaEntrega) / 2.0;
     }
 
     public String getNome() {
@@ -53,16 +53,7 @@ public class Aluno {
         this.notaEntrega = notaEntrega;
     }
 
-    /*
-    @Override
-    public String toString() {
-        return "Aluno{" +
-                "nome='" + nome + '\'' +
-                ", ra='" + ra + '\'' +
-                ", notaContinuada=" + notaContinuada +
-                ", notaEntrega=" + notaEntrega +
-                '}';
-    }*/
+
     @Override
     public String toString(){
         return "Nome = '" + nome + '\'' +
