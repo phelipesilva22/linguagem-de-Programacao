@@ -28,4 +28,17 @@ public enum SimboloCarta {
         return valor;
     }
 
+    public static SimboloCarta fromInteger(Integer valor)
+    {
+
+        for (SimboloCarta simboloDaVez : SimboloCarta.values())
+        {
+            if (simboloDaVez.getValor().equals(valor))
+            {
+               return simboloDaVez;
+            }
+        }
+        throw new RuntimeException("Valor de carta inválido");
+    }
+
 }

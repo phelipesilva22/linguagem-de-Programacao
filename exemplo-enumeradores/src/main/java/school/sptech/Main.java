@@ -1,5 +1,7 @@
 package school.sptech;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -19,7 +21,7 @@ public class Main {
         else
             System.out.println("Carta 1 perdeu");
 
-        if (c1.getValor().getSimbolo() > 3)
+        if (c1.getSimboloCarta().getValor() > 3)
             System.out.println("Você ganhou");
         else
             System.out.println("Você perdeu");
@@ -34,31 +36,13 @@ public class Main {
         }
 
 
-        String naipeDesejado = "copas";
-        Integer valorDesejado = 10;
         /*
         * A partir dos valores de 'naipeDesejado' e 'simboloDesejado'
         * Crie um novo objeto Carta
         * */
 
 
-        for(SimboloCarta simbolo: SimboloCarta.values())
-        {
-            if (simbolo.getValor().equals(valorDesejado))
-            {
-                System.out.println("Valor válido");
-                break;
-            }
-        }
 
-        for(SimboloCarta simbolo: SimboloCarta.values())
-        {
-            if (simbolo.getValor().equals(valorDesejado))
-            {
-                System.out.println("Valor válido");
-                break;
-            }
-        }
 
     }
 }
