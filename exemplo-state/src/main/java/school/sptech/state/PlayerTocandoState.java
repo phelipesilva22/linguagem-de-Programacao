@@ -21,7 +21,7 @@ public class PlayerTocandoState extends PlayerState {
 
     @Override
     public void parar() {
-
+        this.getPlayer().setPlayerState(new PlayerState(this.getPlayer()));
     }
 
 
